@@ -26,10 +26,11 @@ export default (() => {
 				transform="skew(38deg)"
 				padding="0px 0px 0px 0px"
 				margin="0px 0px 0px -20px"
+				noutbuk-width="70%"
 			/>
 			<Stack margin="0px 0px 0px 0px" gap="--cmp-stack-gap-small" width="90%">
 				{"    "}
-				<StackItem width="70%" display="flex">
+				<StackItem width="70%" display="flex" noutbuk-width="80%">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
 					<Text
@@ -68,6 +69,7 @@ export default (() => {
 						display="inline-block"
 						color="#ffffff"
 						position="relative"
+						noutbuk-font="400 13px --fontFamily-googleRoboto"
 					>
 						Поддержка:{" "}
 						<Link
@@ -129,7 +131,13 @@ export default (() => {
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="30%" display="flex" align-items="flex-end" justify-content="flex-end">
+				<StackItem
+					width="30%"
+					display="flex"
+					align-items="flex-end"
+					justify-content="flex-end"
+					noutbuk-width="20%"
+				>
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" />
 					{"        "}
 					<Image width="15px" height="15px" src="https://www.staffcop.ru/templates/rfstaffcoptpl/restyle/img/icon/icon-russia.svg" margin="0px 7px 0px 0px" />
@@ -228,6 +236,7 @@ export default (() => {
 						hover-background="#2513D1"
 						border-radius="0px"
 						text-transform="uppercase"
+						noutbuk-padding="9px 20px 11px 20px"
 					>
 						Test Drive
 					</Button>
@@ -309,7 +318,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Stack margin="0px 0px 0px 0px" gap="0px">
 				{"    "}
-				<StackItem width="25%" display="flex">
+				<StackItem width="25%" display="flex" lg-width="50%">
 					{"        "}
 					<Box
 						width="100%"
@@ -323,6 +332,7 @@ export default (() => {
 						border-width="0px 1px 0px 0px"
 						border-style="solid"
 						border-color="#ffffff"
+						noutbuk-background="--color-dark url(https://static-cse.canva.com/blob/194828/Professional-Office-Zoom-Virtual-Background.png) 0% 0%/cover no-repeat"
 					>
 						<Box
 							width="100%"
@@ -364,7 +374,7 @@ export default (() => {
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="25%" display="flex">
+				<StackItem width="25%" display="flex" lg-width="50%">
 					{"        "}
 					<Box
 						width="100%"
@@ -378,6 +388,7 @@ export default (() => {
 						border-width="0px 1px 0px 0px"
 						border-style="solid"
 						border-color="#ffffff"
+						noutbuk-background="--color-dark url(https://www.adzuna.ru/blog/wp-content/uploads/2018/09/accountant-accounting-bankbook-948887-1024x616-1024x616.jpg) 0% 0%/cover no-repeat"
 					>
 						<Box
 							width="100%"
@@ -421,7 +432,7 @@ export default (() => {
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="25%" display="flex">
+				<StackItem width="25%" display="flex" lg-width="50%">
 					{"        "}
 					<Box
 						width="100%"
@@ -436,6 +447,7 @@ export default (() => {
 						border-style="solid"
 						border-color="#ffffff"
 						hover-filter="blur(0px)"
+						noutbuk-background="--color-dark url(https://static-cse.canva.com/blob/194828/Professional-Office-Zoom-Virtual-Background.png) 0% 0%/cover no-repeat"
 					>
 						<Box
 							width="100%"
@@ -477,7 +489,7 @@ export default (() => {
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="25%" display="flex">
+				<StackItem width="25%" display="flex" lg-width="50%">
 					{"        "}
 					<Box
 						width="100%"
@@ -491,6 +503,7 @@ export default (() => {
 						border-width="0px 0px 0px 0px"
 						border-style="solid"
 						border-color="#ffffff"
+						noutbuk-background="--color-dark url(https://www.adzuna.ru/blog/wp-content/uploads/2018/09/accountant-accounting-bankbook-948887-1024x616-1024x616.jpg) 0% 0%/cover no-repeat"
 					>
 						<Box
 							width="100%"
@@ -539,7 +552,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1170px" />
 			<Stack>
 				{"    "}
-				<StackItem width="33.33%" display="flex">
+				<StackItem width="33.33%" display="flex" lg-width="50%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -604,7 +617,7 @@ export default (() => {
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="33.33%" display="flex">
+				<StackItem width="33.33%" display="flex" lg-width="50%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -669,7 +682,7 @@ export default (() => {
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="33.33%" display="flex">
+				<StackItem width="33.33%" display="flex" lg-width="50%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -736,7 +749,7 @@ atory requirements.
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="33.33%" display="flex">
+				<StackItem width="33.33%" display="flex" lg-width="50%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -801,7 +814,7 @@ atory requirements.
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="33.33%" display="flex">
+				<StackItem width="33.33%" display="flex" lg-width="50%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -866,7 +879,7 @@ atory requirements.
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="33.33%" display="flex">
+				<StackItem width="33.33%" display="flex" lg-width="50%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1095,8 +1108,8 @@ atory requirements.
 					<Text font="600 18px --fontFamily-googleNunito" margin="0px 0px 40px 0px" display="inline-block" color="#153144">
 						Our most affordable, employee monitoring solution for startups and small businesses with powerful features such as real-time activity tracking, video capture and playback, and a set of productivity optimization tools.{"\n\n"}
 					</Text>
-					<Box display="flex" align-items="center" margin="0px 0px 15px 0px">
-						<Box display="flex" box-shadow="0 2px 48px 0 rgba(0, 0, 0, 0.08)" margin="0px 10px 0px 0px">
+					<Box display="flex" align-items="center" margin="0px 0px 15px 0px" lg-flex-direction="column">
+						<Box display="flex" box-shadow="0 2px 48px 0 rgba(0, 0, 0, 0.08)" margin="0px 10px 0px 0px" lg-margin="0px 10px 10px 0px">
 							<Icon
 								category="io"
 								icon={IoMdCloudDone}
@@ -1538,7 +1551,7 @@ atory requirements.
 			<Override slot="SectionContent" max-width="1170px" />
 			<Stack>
 				{"    "}
-				<StackItem width="33%" display="flex">
+				<StackItem width="33%" display="flex" lg-width="50%" sm-width="100%">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
 					<Stack gap="--cmp-stack-gap-small">
@@ -1573,7 +1586,7 @@ atory requirements.
 					</Stack>
 					{"    "}
 				</StackItem>
-				<StackItem width="33%" display="flex">
+				<StackItem width="33%" display="flex" lg-width="50%">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
 					<Stack gap="--cmp-stack-gap-small">
@@ -1608,7 +1621,7 @@ atory requirements.
 					</Stack>
 					{"    "}
 				</StackItem>
-				<StackItem width="33%" display="flex">
+				<StackItem width="33%" display="flex" lg-width="50%">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
 					<Stack gap="--cmp-stack-gap-small">

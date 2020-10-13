@@ -18,6 +18,12 @@ export default {
 				"type": "max-width",
 				"value": 992
 			}
+		],
+		"noutbuk": [
+			{
+				"type": "max-width",
+				"value": "1320"
+			}
 		]
 	},
 	"color": {
